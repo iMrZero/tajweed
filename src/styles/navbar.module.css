@@ -1,0 +1,95 @@
+.sidebar {
+  border-left: 1px solid var(--accent);
+  width: 250px;
+  min-height: 100dvh;
+  flex-shrink: 0;
+  & ul {
+    list-style: none;
+    margin-block-start: 0.7rem;
+    padding-inline: 1rem;
+    /* padding: 0; */
+  }
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
+  @media (max-width: 47rem) {
+    position: absolute;
+    right: -100%;
+    z-index: 1;
+    background-color: light-dark(var(--secondary), var(--code-bg));
+    transition: 0.3s;
+  }
+}
+.mobileOn {
+  right: 0;
+}
+.onMobile {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  &:hover svg {
+    cursor: pointer;
+    color: var(--primary);
+  }
+  svg {
+    color: light-dark(var(--code-bg), #e8dcc4);
+    width: 40px;
+    transition: 0.3s;
+  }
+  @media (min-width: 47rem) {
+    display: none;
+  }
+}
+.sidebarList {
+  color: light-dark(var(--code-bg), var(--secondary));
+  & li div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-block-end: 1rem;
+    padding-right: 0.4rem;
+    white-space: wrap;
+    transition: 0.3s;
+    & svg {
+      flex-shrink: 0;
+    }
+  }
+  & li:hover div {
+    color: var(--primary);
+  }
+  & li div + ul li {
+    color: var(--text);
+    margin-block: 0.8rem;
+  }
+  & li div + ul li:hover a {
+    color: light-dark(var(--code-bg), #e8dcc4);
+  }
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  & h1 {
+    color: light-dark(var(--code-bg), #e8dcc4);
+  }
+  & .mode-swithcer {
+    flex-shrink: 0;
+  }
+}
+.categorHeader {
+  display: flex;
+  & svg {
+    flex-shrink: 0;
+  }
+  & a,
+  & svg {
+    transition: color 0.2s ease-in;
+  }
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "category_id": 1,
+    "category_title": "أحكام النون الساكنة والتنوين",
+    "rules": [
+      {
+        "id": 101,
+        "title": "الإظهار الحلقي",
+        "definition": "إخراج النون الساكنة أو التنوين من مخرجها من غير غنة أصلية زائدة إذا جاء بعدها أحد حروف الحلق الستة: (ء، هـ، ع، ح، غ، خ).",
+        "example": [
+          "مَنْ آمَنَ",
+          "عَلِيمٌ حَكِيمٌ",
+          "مِنْ خَوْفٍ"
+        ],
+        "audio": "https://example.com/audio/izhar-halqi.mp3",
+        "youtube": "https://www.youtube.com/embed/BWpFofORR_M"
+      },
+      {
+        "id": 102,
+        "title": "الإدغام بغنة (الإدغام الناقص)",
+        "definition": "دمج النون الساكنة أو التنوين في الحرف التالي بشرط أن يكون من حروف (ينمو) مع إبقاء صفة الغنة بمقدار حركتين.",
+        "example": [
+          "مَنْ يَقُولُ",
+          "مِنْ نِعْمَةٍ",
+          "فَمَنْ يَعْمَلْ"
+        ],
+        "audio": "https://example.com/audio/idgham-ghunna.mp3",
+        "youtube": "https://www.youtube.com/embed/ykdPQfikENA"
+      },
+      {
+        "id": 103,
+        "title": "الإدغام بغير غنة (الإدغام الكامل)",
+        "definition": "إدخال النون الساكنة أو التنوين في حرف الإدغام ذاتا وصفة دون إخراج غنة، وله حرفان: (اللام، الراء).",
+        "example": [
+          "مِنْ رَبِّهِمْ",
+          "هُدًى لِلْمُتَّقِينَ"
+        ],
+        "audio": "https://example.com/audio/idgham-bighunna.mp3",
+        "youtube": "https://www.youtube.com/embed/BWpFofORR_M"
+      },
+      {
+        "id": 104,
+        "title": "الإظهار المطلق",
+        "definition": "وجوب إظهار النون الساكنة إذا التقت بحرف الإدغام في كلمة واحدة منعاً لتغير معنى الكلمة، ووقع في أربع كلمات في القرآن الكريم فقط.",
+        "example": [
+          "دُنْيَا",
+          "بُنْيَانٌ",
+          "قِنْوَانٌ",
+          "صِنْوَانٌ"
+        ],
+        "audio": "https://example.com/audio/izhar-mutlaq.mp3",
+        "youtube": "https://www.youtube.com/embed/fIut5cP321g"
+      },
+      {
+        "id": 105,
+        "title": "الإقلاب",
+        "definition": "قلب النون الساكنة أو التنوين ميماً مخفاة بغنة عند التقائها بحرف الباء فقط مع التلامس الخفيف بين الشفتين.",
+        "example": [
+          "مِنْ بَعْدِ",
+          "سَمِيعٌ بَصِيرٌ"
+        ],
+        "audio": "https://example.com/audio/iqlab.mp3",
+        "youtube": "https://www.youtube.com/embed/BWpFofORR_M"
+      },
+      {
+        "id": 106,
+        "title": "الإخفاء الحقيقي",
+        "definition": "نطق النون الساكنة أو التنوين بصفة بين الإظهار والإدغام عارية عن التشديد مع بقاء الغنة بمقدار حركتين عند حروف الإخفاء الـ 15.",
+        "example": [
+          "عَنْ صَلَاتِهِمْ",
+          "مَنْ ذَا الَّذِي",
+          "كِتَابٌ كَرِيمٌ"
+        ],
+        "audio": "https://example.com/audio/ikhfa-haqiqi.mp3",
+        "youtube": "https://www.youtube.com/embed/jRkCorsrOmE"
+      }
+    ]
+  },
+  {
+    "category_id": 2,
+    "category_title": "أحكام الميم الساكنة",
+    "rules": [
+      {
+        "id": 201,
+        "title": "الإخفاء الشفوي",
+        "definition": "إخفاء الميم الساكنة مع إظهار الغنة بمقدار حركتين إذا وقع بعدها حرف الباء ويكون من كلمتين.",
+        "example": [
+          "تَرْمِيهِمْ بِحِجَارَةٍ",
+          "وَمَا هُمْ بِمُؤْمِنِينَ"
+        ],
+        "audio": "https://example.com/audio/ikhfa-shafawi.mp3",
+        "youtube": "https://www.youtube.com/embed/SpyJAsukxKM"
+      },
+      {
+        "id": 202,
+        "title": "إدغام المتماثلين الصغير (الإدغام الشفوي)",
+        "definition": "إدغام الميم الساكنة بالميم المتحركة بعدها ليصيرا ميماً واحدة مشددة مع الغنة بمقدار حركتين.",
+        "example": [
+          "لَهُمْ مَا يَشَاءُونَ",
+          "كَمْ مِنْ فِئَةٍ"
+        ],
+        "audio": "https://example.com/audio/idgham-shafawi.mp3",
+        "youtube": "https://www.youtube.com/embed/SpyJAsukxKM"
+      },
+      {
+        "id": 203,
+        "title": "الإظهار الشفوي",
+        "definition": "إظهار الميم الساكنة ونطقها بوضوح عند التقائها بباقي حروف الهجاء الـ 26 عدا الباء والميم، وتكون أشد إظهاراً عند الفاء والواو.",
+        "example": [
+          "أَنْعَمْتَ عَلَيْهِمْ",
+          "لَعَلَّكُمْ تَتَّقُونَ",
+          "هُمْ فِيهَا"
+        ],
+        "audio": "https://example.com/audio/izhar-shafawi.mp3",
+        "youtube": "https://www.youtube.com/embed/SpyJAsukxKM"
+      }
+    ]
+  },
+  {
+    "category_id": 3,
+    "category_title": "أحكام النون والميم المشددتين والغنة",
+    "rules": [
+      {
+        "id": 301,
+        "title": "حكم النون والميم المشددتين",
+        "definition": "وجوب إظهار الغنة أكمل ما تكون فيهما بمقدار حركتين سواء كانتا في وسط الكلمة أو في آخرها، وصلاً ووقفاً.",
+        "example": [
+          "إِنَّ الَّذِينَ",
+          "ثُمَّ كَلَّا",
+          "مِنَ الْجِنَّةِ وَالنَّاسِ"
+        ],
+        "audio": "https://example.com/audio/ghunna-mushaddad.mp3",
+        "youtube": "https://www.youtube.com/embed/FZTPjtXDWo0"
+      },
+      {
+        "id": 302,
+        "title": "مراتب الغنة",
+        "definition": "تتفاوت الغنة قوةً وزيداً في الزمن عبر خمس مراتب: 1- المشدد (أكمل ما تكون). 2- المدغم. 3- المخفى. 4- الساكن المظهر. 5- المتحرك (أصل الغنة فقط).",
+        "example": [
+          "إِنَّ (أكمل)",
+          "مَنْ يَقُولُ (كاملة)",
+          "مَنْ صَلَحَ (ناقصة)",
+          "أَنْعَمْتَ (أنقص ما تكون)"
+        ],
+        "audio": "https://example.com/audio/maratib-ghunna.mp3",
+        "youtube": "https://www.youtube.com/embed/oP3YgxR1B44"
+      }
+    ]
+  },
+  {
+    "category_id": 4,
+    "category_title": "أحكام المد في التجويد",
+    "rules": [
+      {
+        "id": 401,
+        "title": "المد الطبيعي (الأصلي)",
+        "definition": "المد الذي لا تقوم ذات حرف المد إلا به، ولا يتوقف على همز أو سكون، ومقداره حركتان.",
+        "example": [
+          "قَالَ",
+          "قِيلَ",
+          "يَقُومُ"
+        ],
+        "audio": "https://example.com/audio/madd-tabii.mp3",
+        "youtube": "https://www.youtube.com/embed/RVjM8fBoUMs"
+      },
+      {
+        "id": 402,
+        "title": "مد البدل",
+        "definition": "تقدم الهمز على حرف المد في كلمة واحدة دون أن يأتي بعد حرف المد همز أو سكون، ومقداره حركتان لحفص.",
+        "example": [
+          "آَمَنُوا",
+          "إِيمَانًا",
+          "أُوتُوا"
+        ],
+        "audio": "https://example.com/audio/madd-badal.mp3",
+        "youtube": "https://www.youtube.com/embed/AblQ7-Q7D1g"
+      },
+      {
+        "id": 403,
+        "title": "مد العوض",
+        "definition": "التعويض عن تنوين الفتح عند الوقف بألف مدية تمتد بمقدار حركتين.",
+        "example": [
+          "حَكِيمًا (تلفظ حَكِيمَا)",
+          "عَلِيمًا (تلفظ عَلِيمَا)"
+        ],
+        "audio": "https://example.com/audio/madd-iwad.mp3",
+        "youtube": "https://www.youtube.com/embed/LwMWvoWp4xc"
+      },
+      {
+        "id": 404,
+        "title": "مد الصلة الصغرى",
+        "definition": "وقوع هاء الكناية للمذكر الغائب بين متحركين ولم يأت بعدها همزة قطع، فتوصل بواو إن كانت مضمومة وبياء إن كانت مكسورة وتمد حركتين.",
+        "example": [
+          "إِنَّهُ كَانَ (تلفظ إنّهُو كان)",
+          "بِهِ بَصِيرًا (تلفظ بهِي بصير)"
+        ],
+        "audio": "https://example.com/audio/silah-sughra.mp3",
+        "youtube": "https://www.youtube.com/embed/2saIRThAUm4"
+      },
+      {
+        "id": 405,
+        "title": "المد الواجب المتصل",
+        "definition": "أن يقع بعد حرف المد همز متصل به في كلمة واحدة، ومقداره 4 أو 5 حركات وجوباً (و6 حركات عند الوقف على الهمز المتطرف).",
+        "example": [
+          "جَاءَ",
+          "السَّمَاءِ",
+          "سُوءَ"
+        ],
+        "audio": "https://example.com/audio/madd-muttasil.mp3",
+        "youtube": "https://www.youtube.com/embed/DAHjiV84sw8"
+      },
+      {
+        "id": 406,
+        "title": "المد الجائز المنفصل",
+        "definition": "أن يكون حرف المد في نهاية كلمة والهمز في أول الكلمة التي تليها مباشرة، ويمد 4 أو 5 حركات (ويجوز القصر لحركتين من طريق الطيبة).",
+        "example": [
+          "إِنَّا أَعْطَيْنَاكَ",
+          "قُوا أَنْفُسَكُمْ"
+        ],
+        "audio": "https://example.com/audio/madd-munfasil.mp3",
+        "youtube": "https://www.youtube.com/embed/SIGNfRapo9I"
+      },
+      {
+        "id": 407,
+        "title": "مد الصلة الكبرى",
+        "definition": "وقوع هاء الكناية بين متحركين وكان المتحرك الثاني همزة قطع، ويلحق بالمد المنفصل في مقداره (4 أو 5 حركات).",
+        "example": [
+          "وَوَهَبْنَا لَهُ إِسْحَاقَ",
+          "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ"
+        ],
+        "audio": "https://example.com/audio/silah-kubra.mp3",
+        "youtube": "https://www.youtube.com/embed/2saIRThAUm4"
+      },
+      {
+        "id": 408,
+        "title": "المد العارض للسكون",
+        "definition": "أن يقع بعد حرف المد أو اللين سكون عارض بسبب الوقف، ومقداره 2 أو 4 أو 6 حركات جوازاً.",
+        "example": [
+          "الْعَالَمِينَ",
+          "نَسْتَعِينُ",
+          "الرَّحِيمِ"
+        ],
+        "audio": "https://example.com/audio/madd-arid.mp3",
+        "youtube": "https://www.youtube.com/embed/5yQsC2JqAuI"
+      },
+      {
+        "id": 409,
+        "title": "مد اللين",
+        "definition": "وقوع سكون عارض بعد واو أو ياء ساكنتين مفتوح ما قبلهما عند الوقف، ويمد 2 أو 4 أو 6 حركات.",
+        "example": [
+          "خَوْفٍ",
+          "بَيْتٍ",
+          "قُرَيْشٍ"
+        ],
+        "audio": "https://example.com/audio/madd-leen.mp3",
+        "youtube": "https://www.youtube.com/embed/l-ogtEQ2kDs"
+      },
+      {
+        "id": 410,
+        "title": "المد اللازم الكلمي المثقل",
+        "definition": "أن يقع بعد حرف المد حرف مدغم (مشدد) في كلمة واحدة، ومقداره 6 حركات لزوماً.",
+        "example": [
+          "الْحَاقَّةُ",
+          "الصَّاخَّةُ",
+          "وَلَا الضَّالِّينَ"
+        ],
+        "audio": "https://example.com/audio/madd-lazim-kilmi-muthaqqal.mp3",
+        "youtube": "https://www.youtube.com/embed/lxSnohUaEb8"
+      },
+      {
+        "id": 411,
+        "title": "المد اللازم الكلمي المخفف",
+        "definition": "أن يقع بعد حرف المد حرف ساكن سكوناً أصلياً غير مدغم في كلمة واحدة، ومقداره 6 حركات لزوماً (ورد في كلمة واحدة في موضعين بيونس).",
+        "example": [
+          "آلْآنَ وَقَدْ عَصَيْتَ",
+          "آلْآنَ وَقَدْ كُنْتُمْ"
+        ],
+        "audio": "https://example.com/audio/madd-lazim-kilmi-mukhaffaf.mp3",
+        "youtube": "https://www.youtube.com/embed/lxSnohUaEb8"
+      },
+      {
+        "id": 412,
+        "title": "المد اللازم الحرفي (المثقل والمخفف)",
+        "definition": "أن يقع المد في أحرف الفواتح المكونة من ثلاثة أحرف وسطها حرف مد؛ فإن أدغم آخره فيما بعده فهو مثقل، وإن لم يدغم فهو مخفف (يمد 6 حركات).",
+        "example": [
+          "ألم (اللام مد لازم حرفي مثقل)",
+          "ق (مد لازم حرفي مخفف)",
+          "ص (مد لازم حرفي مخفف)"
+        ],
+        "audio": "https://example.com/audio/madd-lazim-harfi.mp3",
+        "youtube": "https://www.youtube.com/embed/UoxNPIfgicc"
+      }
+    ]
+  },
+  {
+    "category_id": 5,
+    "category_title": "أحكام التفخيم والترقيق",
+    "rules": [
+      {
+        "id": 501,
+        "title": "تفخيم الراء",
+        "definition": "تغليظ صوت الراء، ومن أهم أسبابها: إذا كانت مفتوحة أو مضمومة، أو ساكنة بعد فتح أو ضم، أو ساكنة بعد كسرة عارضة.",
+        "example": [
+          "رَبَّنَا",
+          "رُزِقْنَا",
+          "مَرْيَمَ",
+          "أَمِ ارْتَابُوا"
+        ],
+        "audio": "https://example.com/audio/raa-tafkhim.mp3",
+        "youtube": "https://www.youtube.com/embed/qiV6nstJBZU"
+      },
+      {
+        "id": 502,
+        "title": "ترقيق الراء",
+        "definition": "تنحيف صوت الراء عند النطق بها، ومن أهم أسبابها: إذا كانت مكسورة، أو ساكنة بعد كسر أصلي وليس بعدها حرف استعلاء، أو ساكنة وقبلها ياء ساكنة وقفا.",
+        "example": [
+          "رِجَالٌ",
+          "فِرْعَوْنَ",
+          "قَدِيرٌ"
+        ],
+        "audio": "https://example.com/audio/raa-tarqeeq.mp3",
+        "youtube": "https://www.youtube.com/embed/XmGYd5AN9tc"
+      },
+      {
+        "id": 503,
+        "title": "جواز الوجهين في الراء",
+        "definition": "الحالات التي يجوز فيها التفخيم والترقيق، كأن تكون الراء ساكنة بعد كسر أصلي وبعدها حرف استعلاء مكسور، أو الساكنة وقفا وقبلها حرف استعلاء ساكن وقبله مكسور.",
+        "example": [
+          "فِرْقٍ",
+          "مِصْرَ (عند الوقف)",
+          "الْقِطْرِ (عند الوقف)"
+        ],
+        "audio": "https://example.com/audio/raa-jawaz.mp3",
+        "youtube": "https://www.youtube.com/embed/qiV6nstJBZU"
+      },
+      {
+        "id": 504,
+        "title": "تفخيم وترقيق لام لفظ الجلالة (الله)",
+        "definition": "تفخم اللام من اسم الله إذا تقدمها فتح أو ضم، وترقق إذا تقدمها كسر أصلي أو عارض.",
+        "example": [
+          "قَالَ اللَّهُ (تفخيم)",
+          "عَبْدُ اللَّهِ (تفخيم)",
+          "بِسْمِ اللَّهِ (ترقيق)"
+        ],
+        "audio": "https://example.com/audio/lam-allah.mp3",
+        "youtube": "https://www.youtube.com/embed/ca0xwGfr6fc"
+      },
+      {
+        "id": 505,
+        "title": "حكم الألف المدية",
+        "definition": "الألف المدية لا توصف بتفخيم ولا ترقيق بذاتها، بل تتبع ما قبلها؛ فإن كان مفخماً فُخِّمت، وإن كان مرققاً رُقِّقت.",
+        "example": [
+          "قَالَ (تفخيم الألف لتقدم القاف المفخمة)",
+          "كَانَ (ترقيق الألف لتقدم الكاف المرققة)"
+        ],
+        "audio": "https://example.com/audio/alif-madd.mp3",
+        "youtube": "https://www.youtube.com/embed/PBv6hEi0wDM"
+      }
+    ]
+  },
+  {
+    "category_id": 6,
+    "category_title": "أحكام القلقلة وحروف الاستعلاء",
+    "rules": [
+      {
+        "id": 601,
+        "title": "القلقلة ومراتبها",
+        "definition": "اضطراب الصوت عند النطق بحرف من حروف (قطب جد) إذا كان ساكناً. مراتبها: 1- أكبر (المشدد الموقوف عليه). 2- كبرى (الساكن غير المشدد الموقوف عليه). 3- صغرى (الساكن وسط الكلمة).",
+        "example": [
+          "الْحَقُّ (أكبر)",
+          "الْفَلَقِ (كبرى)",
+          "يَقْتُلُونَ (صغرى)"
+        ],
+        "audio": "https://example.com/audio/qalqalah.mp3",
+        "youtube": "https://www.youtube.com/embed/E0rXs8R8cak"
+      },
+      {
+        "id": 602,
+        "title": "حروف الاستعلاء ومراتب التفخيم",
+        "definition": "حروف خص ضغط قظ، وهي مفخمة دائماً. مراتبها الخمس: 1- المفتوح وبعده ألف. 2- المفتوح ليس بعده ألف. 3- المضموم. 4- الساكن. 5- المكسور.",
+        "example": [
+          "خَالِدِينَ (المرتبة الأولى)",
+          "خَلَقَ (المرتبة الثانية)",
+          "خُلِقُوا (المرتبة الثالثة)",
+          "يَخْلُقُ (المرتبة الرابعة)",
+          "خِيَانَةً (المرتبة الخامسة)"
+        ],
+        "audio": "https://example.com/audio/isti-laa.mp3",
+        "youtube": "https://www.youtube.com/embed/IcJep6KwDxk"
+      }
+    ]
+  },
+  {
+    "category_id": 7,
+    "category_title": "إدغام الحروف (المتماثلان، المتجانسان، المتقاربان)",
+    "rules": [
+      {
+        "id": 701,
+        "title": "إدغام المتماثلين",
+        "definition": "أن يلتقي حرفان اتحدا مخرجاً وصفةً وكان الأول ساكناً والثاني متحركاً، فيدمج الأول في الثاني.",
+        "example": [
+          "اضْرِبْ بِعَصَاكَ",
+          "وَقَدْ دَخَلُوا"
+        ],
+        "audio": "https://example.com/audio/mutamathilain.mp3",
+        "youtube": "https://www.youtube.com/embed/ydcEOj0OSLk"
+      },
+      {
+        "id": 702,
+        "title": "إدغام المتجانسين",
+        "definition": "أن يلتقي حرفان اتحدا مخرجاً واختلفا صفةً وكان الأول ساكناً؛ وذلك في مواضع محددة مثل (الباء مع الميم، والتاء مع الطاء/الدال، والذال مع الظاء).",
+        "example": [
+          "يَا بُنَيَّ ارْكَبْ مَعَنَا",
+          "أَثْقَلَتْ دَعَوَا اللَّهَ",
+          "إِذْ ظَلَمُوا"
+        ],
+        "audio": "https://example.com/audio/mutajanisain.mp3",
+        "youtube": "https://www.youtube.com/embed/rRXuMiVz3zk"
+      },
+      {
+        "id": 703,
+        "title": "إدغام المتقاربين",
+        "definition": "أن يلتقي حرفان تقاربا مخرجاً وصفةً أو مخرجاً فقط وكان الأول منهما ساكناً؛ وذلك في (القاف مع الكاف) و(اللام مع الراء).",
+        "example": [
+          "أَلَمْ نَخْلُقْكُمْ",
+          "وَقُلْ رَبِّ"
+        ],
+        "audio": "https://example.com/audio/mutaqaribain.mp3",
+        "youtube": "https://www.youtube.com/embed/8hpNjriIAeg"
+      }
+    ]
+  },
+  {
+    "category_id": 8,
+    "category_title": "أحكام اللامات الساكنة",
+    "rules": [
+      {
+        "id": 801,
+        "title": "لام التعريف (أَلْ الشمسية والقمرية)",
+        "definition": "تظهر إذا وقع بعدها أحد حروف (إبغ حجك وخف عقيمه)، وتدغم إذا وقع بعدها أحد الحروف الـ 14 المتبقية (أوائل كلمات: طب ثم صل رحما تفز ضف ذا نعم...).",
+        "example": [
+          "الْقَمَرِ (إظهار قمري)",
+          "الشَّمْسِ (إدغام شمسي)"
+        ],
+        "audio": "https://example.com/audio/lam-tarif.mp3",
+        "youtube": "https://www.youtube.com/embed/2mpYSNdokUA"
+      },
+      {
+        "id": 802,
+        "title": "لام الفعل ولام الحرف",
+        "definition": "تظهران دائماً إلا إذا جاء بعدهما حرف (اللام) أو (الراء) فتُدغمان.",
+        "example": [
+          "قُلْ نَعَمْ (إظهار)",
+          "قُلْ رَبِّ (إدغام)",
+          "بَلْ رَفَعَهُ (إدغام)"
+        ],
+        "audio": "https://example.com/audio/lam-fi-l-harf.mp3",
+        "youtube": "https://www.youtube.com/embed/7QitPxIBBNI"
+      },
+      {
+        "id": 803,
+        "title": "لام الاسم ولام الأمر",
+        "definition": "لام الاسم هي اللام الساكنة الواقعة في الاسم وتكون أصلية وحكمها الإظهار دائماً. ولام الأمر هي اللام الزائدة الداخلة على الفعل المضارع وتسبق بـ (ف، و، ثم) وحكمها الإظهار المطلق.",
+        "example": [
+          "أَلْسِنَتِكُمْ (لام اسم)",
+          "وَلْيَكْتُبْ (لام أمر)",
+          "ثُمَّ لْيَقْضُوا (لام أمر)"
+        ],
+        "audio": "https://example.com/audio/lam-ism-amr.mp3",
+        "youtube": "https://www.youtube.com/embed/7QitPxIBBNI"
+      }
+    ]
+  },
+  {
+    "category_id": 9,
+    "category_title": "أحكام الوقف والابتداء والقطع والتكبير",
+    "rules": [
+      {
+        "id": 901,
+        "title": "الوقف التام والكافي والحسن والقبيح",
+        "definition": "التام: لا يتعلق بما بعده لفظاً ولا معنى. الكافي: يتعلق معنى لا لفظاً. الحسن: يتعلق لفظاً ومعنى ويلزم إعادة الكلمة إلا على رؤوس الآي. القبيح: يفسد المعنى ولا يجوز إلا اضطراراً.",
+        "example": [
+          "وَأُولَئِكَ هُمُ الْمُفْلِحُونَ (تام)",
+          "حَرَّمْنَا عَلَيْهِمْ طَيِّبَاتٍ أُحِلَّتْ لَهُمْ (كافي)",
+          "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (حسن)",
+          "لَا تَقْرَبُوا الصَّلَاةَ (قبيح إن لم يكمل)"
+        ],
+        "audio": "https://example.com/audio/waqf-types.mp3",
+        "youtube": "https://www.youtube.com/embed/sieKAn1HJhY"
+      },
+      {
+        "id": 902,
+        "title": "السكتات الواجبة عند حفص",
+        "definition": "قطع الصوت برهة يسيرة من الزمن دون تنفس بنية مواصلة القراءة، وله أربعة مواضع واجبة عند حفص من طريق الشاطبية.",
+        "example": [
+          "عِوَجًا ۜ قَيِّمًا (الكهف)",
+          "مِنْ مَرْقَدِنَا ۜ هَذَا (يس)",
+          "وَقِيلَ مَنْ ۜ رَاقٍ (القيامة)",
+          "كَلَّا بَلْ ۜ رَانَ (المطففين)"
+        ],
+        "audio": "https://example.com/audio/saktat.mp3",
+        "youtube": "https://www.youtube.com/embed/_V-KMSEJeOU"
+      }
+    ]
+  }
+]
