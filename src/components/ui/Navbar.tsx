@@ -3,7 +3,7 @@ import {CircleChevronDown, CircleChevronLeft, SidebarClose, SidebarOpen} from 'l
 import styles from '@/styles/navbar.module.css'
 import ThemeSwitcher from './ThemeSwitcher'
 import { newData } from '@/util/data'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 type Rule = {
     id: number
@@ -19,17 +19,34 @@ type Category = {
 }
 function Navbar() {
     const [isMenuOpen , setIsMenuOpen] = useState<boolean>(false)
+    const menuRef = useRef<HTMLElement>(null)
     const params = useParams({strict: false})
     const activeCategoryId = params.categoryId ? Number(params.categoryId) : null 
     
     const handleMenuToggle = () => setIsMenuOpen(prev => !prev) 
     const isClose = isMenuOpen ? <SidebarClose onClick={handleMenuToggle}/> : <SidebarOpen onClick={handleMenuToggle}/>
+
+    useEffect(() => {
+        if(!isMenuOpen) return
+        function handleScreenTouch(e: MouseEvent | TouchEvent) {
+            if(menuRef.current && !menuRef.current.contains(e.target as Node)) {
+                setIsMenuOpen(false)
+            }
+        }
+        document.addEventListener("mousedown",handleScreenTouch)
+        document.addEventListener("touchstart",handleScreenTouch)
+
+        return () => {
+            document.removeEventListener("mousedown",handleScreenTouch)
+            document.removeEventListener("touchstart",handleScreenTouch)
+        }
+    },[isMenuOpen])
      return (
     <>
         <button className={styles.onMobile} style={{right: isMenuOpen ? "250px" : "0"}}>
             {isClose}
         </button>
-        <nav className={isMenuOpen ? styles.sidebar + " " + styles.mobileOn : styles.sidebar}>
+        <nav ref={menuRef} className={isMenuOpen ? styles.sidebar + " " + styles.mobileOn : styles.sidebar}>
             <div className={styles.title}>
                 <h1>التجويد</h1>
                 <ThemeSwitcher />

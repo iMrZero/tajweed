@@ -32,6 +32,7 @@
   background-color: transparent;
   border: 0;
   outline: 0;
+  flex-shrink: 0;
   &:hover svg {
     cursor: pointer;
     color: var(--primary);
