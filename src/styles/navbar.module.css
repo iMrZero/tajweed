@@ -82,6 +82,9 @@
   & .mode-swithcer {
     flex-shrink: 0;
   }
+  & svg {
+    color: light-dark(var(--code-bg), #e8dcc4);
+  }
 }
 .categorHeader {
   display: flex;

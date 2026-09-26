@@ -12,7 +12,7 @@ function ThemeSwitcher() {
         html?.style.setProperty("color-scheme", acitveTheme)
     },[isDark])
     return <div className="mode-swithcer">
-        <DarkModeSwitch checked={isDark} onChange={toggleDark} sunColor="orange" moonColor="orange" />
+        <DarkModeSwitch checked={isDark} onChange={toggleDark}  />
     </div>;
 }
 
