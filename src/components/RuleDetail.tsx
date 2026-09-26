@@ -15,7 +15,7 @@ type RuleDetailProps = {
 export function RuleDetail({ rule }: RuleDetailProps) {
   console.log(rule.youtube)
   return (
-    <div className={styles.definition}>
+    <div className={styles.definition} style={{fontFamily: "Amiri Quran, serif"}}>
       <h2>{rule.title}</h2>
       <p>
         <strong>التعريف:</strong> {rule.definition}
