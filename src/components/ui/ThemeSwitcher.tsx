@@ -6,10 +6,11 @@ function ThemeSwitcher() {
     const {isDark ,setIsDark} = useContext(ThemeContext)
     const toggleDark = (checked: boolean) => setIsDark(checked)
     useEffect(() => {
-        const html = document.querySelector("html")
-        const acitveTheme = isDark ? "dark" : "light" 
-        sessionStorage.setItem("theme",acitveTheme)
-        html?.style.setProperty("color-scheme", acitveTheme)
+        const activeTheme = isDark ? "dark" : "light"
+        const root = document.documentElement
+        sessionStorage.setItem("theme", activeTheme)
+        root.dataset.theme = activeTheme
+        root.style.colorScheme = activeTheme
     },[isDark])
     return <div className="mode-swithcer">
         <DarkModeSwitch checked={isDark} onChange={toggleDark}  />
